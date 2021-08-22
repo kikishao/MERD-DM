@@ -1,0 +1,6 @@
+// Reliability
+P=? [ G[0,T*3600*24] "up" ]
+
+// Availability
+R{"up"}=? [ C<=T*3600*24 ]/(T*3600*24)
+
